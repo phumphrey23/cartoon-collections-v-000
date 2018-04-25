@@ -1,8 +1,6 @@
 def roll_call_dwarves(dwarves)
-  i=0
-  dwarves.collect do |dwarves|
-    puts dwarves[i]
-    i = i + 1
+dwarves.collect do |dwarves|
+    puts dwarves
   end
 end
 
